@@ -1,0 +1,807 @@
+
+{
+        "category": [
+            {
+                "categoryid": 1,
+                "categorycode": "1",
+                "categoryname": "Fresh Foods",
+                "categoryalise": "ताजा खाद्य पदार्थ",
+                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                "sublist": [
+                    {
+                        "categoryid": 1,
+                        "categorycode": "1",
+                        "categoryname": "Cheese",
+                        "categoryalise": "पनीर",
+                        "imageurl": "https://i.imgur.com/zjekjLY.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 1,
+                                "categorycode": "1",
+                                "categoryname": "Fresh Dairy",
+                                "categoryalise": "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/zjekjLY.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 2,
+                                "categorycode": "2",
+                                "categoryname": "Butter & Cheese",
+                                "categoryalise": "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/zjekjLY.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 2,
+                        "categorycode": "2",
+                        "categoryname": "Bakery",
+                        "categoryalise": "طائر (ج) طائرات",
+                        "imageurl": "https://i.imgur.com/zjekjLY.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 4,
+                                "categorycode": "4",
+                                "categoryname": "Bread Basket",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/zjekjLY.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 5,
+                                "categorycode": "5",
+                                "categoryname": "Cakes",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 6,
+                                "categorycode": "6",
+                                "categoryname": "Croissant",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 3,
+                        "categorycode": "3",
+                        "categoryname": "Vegetables & Fruites",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 7,
+                                "categorycode": "7",
+                                "categoryname": "Fresh Vegetables",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 8,
+                                "categorycode": "8",
+                                "categoryname": "Salad Vegetables",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 9,
+                                "categorycode": "9",
+                                "categoryname": "Fresh Fruites",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 4,
+                        "categorycode": "4",
+                        "categoryname": "Fresh Chicken, Meat & Seafood",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 10,
+                                "categorycode": "10",
+                                "categoryname": "Fresh Chicken",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 11,
+                                "categorycode": "11",
+                                "categoryname": "Fresh Beef & Veal",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 12,
+                                "categorycode": "12",
+                                "categoryname": "Fresh Mutton",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 13,
+                                "categorycode": "13",
+                                "categoryname": "Fresh Fish",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryid": 2,
+                "categorycode": "2",
+                "categoryname": "Food Store",
+                "categoryalise": "",
+                "imageurl": "",
+                "sublist": [
+                    {
+                        "categoryid": 5,
+                        "categorycode": "5",
+                        "categoryname": "Breakfast & Spreads",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 14,
+                                "categorycode": "14",
+                                "categoryname": "Cereals",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 15,
+                                "categorycode": "15",
+                                "categoryname": "Oats & Bars",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 16,
+                                "categorycode": "16",
+                                "categoryname": "Jams & Spreads",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 6,
+                        "categorycode": "6",
+                        "categoryname": "Hot Baverages",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 17,
+                                "categorycode": "17",
+                                "categoryname": "Tea",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 18,
+                                "categorycode": "18",
+                                "categoryname": "Coffee",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 19,
+                                "categorycode": "19",
+                                "categoryname": "Chocolat & Malted Drinks",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 20,
+                                "categorycode": "20",
+                                "categoryname": "Long Life Milk",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 21,
+                                "categorycode": "21",
+                                "categoryname": "Dairy Alternatives",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 22,
+                                "categorycode": "22",
+                                "categoryname": "Milk Powder",
+                                "categoryalise":  "ताजा डेयरी",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 7,
+                        "categorycode": "7",
+                        "categoryname": "Cold Baverages",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 23,
+                                "categorycode": "23",
+                                "categoryname": "Water",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 24,
+                                "categorycode": "24",
+                                "categoryname": "Soft Drinks",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 25,
+                                "categorycode": "25",
+                                "categoryname": "Juices",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 26,
+                                "categorycode": "26",
+                                "categoryname": "Energy Drinks",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 8,
+                        "categorycode": "8",
+                        "categoryname": "Frozen Foods",
+                        "categoryalise": "",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 27,
+                                "categorycode": "27",
+                                "categoryname": "Ice Cream",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 28,
+                                "categorycode": "28",
+                                "categoryname": "Redey To Eat Snacks",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 29,
+                                "categorycode": "29",
+                                "categoryname": "Burgers",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 30,
+                                "categorycode": "30",
+                                "categoryname": "Meat & Poultry",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 31,
+                                "categorycode": "31",
+                                "categoryname": "Fish & Sea Food",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 32,
+                                "categorycode": "32",
+                                "categoryname": "Fruits & Vegetables",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 33,
+                                "categorycode": "33",
+                                "categoryname": "Frozen Dairy",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 9,
+                        "categorycode": "9",
+                        "categoryname": "Canned Foods",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 34,
+                                "categorycode": "34",
+                                "categoryname": "Canned Vegetables",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 35,
+                                "categorycode": "35",
+                                "categoryname": "Canned Beans",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 36,
+                                "categorycode": "36",
+                                "categoryname": "Canned Meat",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 37,
+                                "categorycode": "37",
+                                "categoryname": "Canned Fish",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 38,
+                                "categorycode": "38",
+                                "categoryname": "Canned Fruits",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 39,
+                                "categorycode": "39",
+                                "categoryname": "Soups",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 10,
+                        "categorycode": "10",
+                        "categoryname": "Home Baking & Sweeteners",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 40,
+                                "categorycode": "40",
+                                "categoryname": "Home Baking",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 41,
+                                "categorycode": "41",
+                                "categoryname": "Sugar & Other Sweeteners",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 11,
+                        "categorycode": "11",
+                        "categoryname": "Dressings, Sauces & Pickels",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 42,
+                                "categorycode": "42",
+                                "categoryname": "Dressings",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 43,
+                                "categorycode": "43",
+                                "categoryname": "Sauces",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 44,
+                                "categorycode": "44",
+                                "categoryname": "Pickels",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 12,
+                        "categorycode": "12",
+                        "categoryname": "Cooking Ingredients",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 45,
+                                "categorycode": "45",
+                                "categoryname": "Oils",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 46,
+                                "categorycode": "46",
+                                "categoryname": "Spices & Herbs",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 47,
+                                "categorycode": "47",
+                                "categoryname": "Condiments",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 48,
+                                "categorycode": "48",
+                                "categoryname": "Pulses",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 49,
+                                "categorycode": "49",
+                                "categoryname": "Salt",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 13,
+                        "categorycode": "13",
+                        "categoryname": "Rice, Pasta & Noodles",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 50,
+                                "categorycode": "50",
+                                "categoryname": "Rice",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 51,
+                                "categorycode": "51",
+                                "categoryname": "Pasta",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 52,
+                                "categorycode": "52",
+                                "categoryname": "Noodels",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 14,
+                        "categorycode": "14",
+                        "categoryname": "Biscuits & Confectionery",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 53,
+                                "categorycode": "53",
+                                "categoryname": "Biscuits",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 54,
+                                "categorycode": "54",
+                                "categoryname": "Chocolates",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 15,
+                        "categorycode": "15",
+                        "categoryname": "Chips & Snacks",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                        "sublist": [
+                            {
+                                "categoryid": 55,
+                                "categorycode": "55",
+                                "categoryname": "Chips",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 56,
+                                "categorycode": "56",
+                                "categoryname": "Snacks",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 57,
+                                "categorycode": "57",
+                                "categoryname": "Popcorns",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 16,
+                        "categorycode": "16",
+                        "categoryname": "Speciality Foods",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 58,
+                                "categorycode": "58",
+                                "categoryname": "Organic",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 59,
+                                "categorycode": "59",
+                                "categoryname": "Gluten Free",
+                                "categoryalise": "",
+                                "imageurl": "https://i.imgur.com/lKLSuW0.jpeg",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 60,
+                                "categorycode": "60",
+                                "categoryname": "Sugar Free",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 61,
+                                "categorycode": "61",
+                                "categoryname": "Vegan",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 62,
+                                "categorycode": "62",
+                                "categoryname": "Lactose Free",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryid": 3,
+                "categorycode": "3",
+                "categoryname": "Home Essentials",
+                "categoryalise":  "ताजा डेयरी",
+                "imageurl": "",
+                "sublist": [
+                    {
+                        "categoryid": 34,
+                        "categorycode": "34",
+                        "categoryname": "Stationaries",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 121,
+                                "categorycode": "121",
+                                "categoryname": "Stationaries",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 35,
+                        "categorycode": "35",
+                        "categoryname": "Electrical Accessories",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 122,
+                                "categorycode": "122",
+                                "categoryname": "Lights & Bulbs",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 123,
+                                "categorycode": "123",
+                                "categoryname": "Batteries",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            },
+                            {
+                                "categoryid": 124,
+                                "categorycode": "124",
+                                "categoryname": "Plugs & Extensions",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 36,
+                        "categorycode": "36",
+                        "categoryname": "Insecticides",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 125,
+                                "categorycode": "125",
+                                "categoryname": "Insecticides",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 37,
+                        "categorycode": "37",
+                        "categoryname": "Plastic Storeages & Basket",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 126,
+                                "categorycode": "126",
+                                "categoryname": "Plastic Storeages & Basket",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 38,
+                        "categorycode": "38",
+                        "categoryname": "Kitchen Accessories",
+                        "categoryalise":  "ताजा डेयरी",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 127,
+                                "categorycode": "127",
+                                "categoryname": "Kitchen Accessories",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 39,
+                        "categorycode": "39",
+                        "categoryname": "Shoe Polish",
+                        "categoryalise": "",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 128,
+                                "categorycode": "128",
+                                "categoryname": "Shoe Care",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    },
+                    {
+                        "categoryid": 40,
+                        "categorycode": "40",
+                        "categoryname": "Other Essentials",
+                        "categoryalise": "",
+                        "imageurl": "",
+                        "sublist": [
+                            {
+                                "categoryid": 129,
+                                "categorycode": "129",
+                                "categoryname": "Other Essentials",
+                                "categoryalise": "",
+                                "imageurl": "",
+                                "sublist": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryid": 4,
+                "categorycode": "4",
+                "categoryname": "Offer Deals",
+                "categoryalise": "",
+                "imageurl": "",
+                "sublist": null
+            }
+        ]
+}
