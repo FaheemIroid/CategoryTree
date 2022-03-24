@@ -7,47 +7,18 @@
 
 import Foundation
 
-struct CategoryData : Codable {
+struct CategoryData : Decodable {
     let category : [Category]?
-    enum CodingKeys: String, CodingKey {
-
-        case category = "category"
-    }
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        category = try values.decodeIfPresent([Category].self, forKey: .category)
-    }
 }
 
 
-struct Category : Codable {
+struct Category : Decodable {
     let categoryid : Int?
     let categorycode : String?
     let categoryname : String?
     let categoryalise : String?
     let imageurl : String?
     let sublist : [Category]?
-
-    enum CodingKeys: String, CodingKey {
-
-        case categoryid = "categoryid"
-        case categorycode = "categorycode"
-        case categoryname = "categoryname"
-        case categoryalise = "categoryalise"
-        case imageurl = "imageurl"
-        case sublist = "sublist"
-    }
-
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        categoryid = try values.decodeIfPresent(Int.self, forKey: .categoryid)
-        categorycode = try values.decodeIfPresent(String.self, forKey: .categorycode)
-        categoryname = try values.decodeIfPresent(String.self, forKey: .categoryname)
-        categoryalise = try values.decodeIfPresent(String.self, forKey: .categoryalise)
-        imageurl = try values.decodeIfPresent(String.self, forKey: .imageurl)
-        sublist = try values.decodeIfPresent([Category].self, forKey: .sublist)
-    }
-
 }
 
 

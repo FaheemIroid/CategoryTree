@@ -30,34 +30,34 @@ class CategoryViewModel {
             }
         }
     }
-    
-    func writeJSON(completion: @escaping () -> Void) {
-        let category = AddCategoryParams(categoryid: 10, categorycode: "10", categoryname: "test data", categoryalise: "test", imageurl: "https://i.imgur.com/zjekjLY.jpeg", sublist: nil)
-        //var array : CategoryDatas!
-       // array.category?.append(category)
-
-        do {
-            let fileURL = try FileManager.default.url(for: .desktopDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-                .appendingPathComponent("TestCategoryData.js")
-
-            let encoder = JSONEncoder()
-            try encoder.encode(category).write(to: fileURL)
-            completion()
-        } catch {
-            print(error.localizedDescription)
-            completion()
+     func saveDomaines() {
+        if let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
+            let fileURL = documentsDirectory.appendingPathComponent("TestCategoryData.js")
+            let json = ["category": ["categoryid":"100","categorycode":"100","categoryname":"dsdfsdfsd","categoryalise":"dsafdsfds","imageurl":"","sublist":""]]
+            writeFile(fileURL: fileURL, json: json)
+        } else {
+            print("Shouldn't reach here")
         }
     }
+    
+     func writeFile(fileURL: URL, json: [String: Any]) {
+        do {
+            if let jsonData = try JSONSerialization.data(withJSONObject: json, options: .init(rawValue: 0)) as? Data {
+                try jsonData.write(to: fileURL)
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+
+
 }
 
-struct CategoryDatas : Encodable {
-    var category : [AddCategoryParams]?
-}
-struct AddCategoryParams: Encodable {
-    var categoryid : Int?
-    var categorycode : String?
-    var categoryname : String?
-    var categoryalise : String?
-    var imageurl : String?
-    var sublist : [AddCategoryParams]?
-}
+//struct Categorys : Encodable {
+//    let categoryid : Int?
+//    let categorycode : String?
+//    let categoryname : String?
+//    let categoryalise : String?
+//    let imageurl : String?
+//    let sublist : [Category]?
+//}
