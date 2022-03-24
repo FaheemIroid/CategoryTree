@@ -14,7 +14,7 @@
 		A667762E27EC2A47007A4A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A667762D27EC2A47007A4A54 /* Assets.xcassets */; };
 		A667763127EC2A48007A4A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667762F27EC2A48007A4A54 /* LaunchScreen.storyboard */; };
 		A667763D27EC2E63007A4A54 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667763C27EC2E63007A4A54 /* Category.swift */; };
-		A69BFBFB27EC41C200E2C717 /* TestCategoryData.js in Resources */ = {isa = PBXBuildFile; fileRef = A69BFBFA27EC41C200E2C717 /* TestCategoryData.js */; };
+		A69BFBFB27EC41C200E2C717 /* TestCategoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = A69BFBFA27EC41C200E2C717 /* TestCategoryData.json */; };
 		A69BFBFD27EC44BE00E2C717 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BFBFC27EC44BD00E2C717 /* CategoryViewModel.swift */; };
 		A69BFC0027EC472D00E2C717 /* SystemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BFBFF27EC472D00E2C717 /* SystemError.swift */; };
 		A69BFC0327EC4C4500E2C717 /* CategoryListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BFC0227EC4C4500E2C717 /* CategoryListTVCell.swift */; };
@@ -32,7 +32,7 @@
 		A667763027EC2A48007A4A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A667763227EC2A48007A4A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A667763C27EC2E63007A4A54 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		A69BFBFA27EC41C200E2C717 /* TestCategoryData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TestCategoryData.js; sourceTree = "<group>"; };
+		A69BFBFA27EC41C200E2C717 /* TestCategoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestCategoryData.json; sourceTree = "<group>"; };
 		A69BFBFC27EC44BD00E2C717 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		A69BFBFF27EC472D00E2C717 /* SystemError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemError.swift; sourceTree = "<group>"; };
 		A69BFC0227EC4C4500E2C717 /* CategoryListTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListTVCell.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		A667763827EC2CF8007A4A54 /* JsonFile */ = {
 			isa = PBXGroup;
 			children = (
-				A69BFBFA27EC41C200E2C717 /* TestCategoryData.js */,
+				A69BFBFA27EC41C200E2C717 /* TestCategoryData.json */,
 			);
 			path = JsonFile;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			files = (
 				A667763127EC2A48007A4A54 /* LaunchScreen.storyboard in Resources */,
 				A667762E27EC2A47007A4A54 /* Assets.xcassets in Resources */,
-				A69BFBFB27EC41C200E2C717 /* TestCategoryData.js in Resources */,
+				A69BFBFB27EC41C200E2C717 /* TestCategoryData.json in Resources */,
 				A667762C27EC2A43007A4A54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

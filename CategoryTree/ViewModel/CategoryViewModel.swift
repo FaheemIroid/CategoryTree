@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreImage
 
 class CategoryViewModel {
     var itemsDidChange: ((Any?) -> Void)?
@@ -15,9 +16,11 @@ class CategoryViewModel {
             itemsDidChange?(categories)
         }
     }
+    static var subUrl: URL?
     //MARK: - Fetch Category List
     func fetchList(completion: @escaping () -> Void) {
-        if let url = Bundle.main.url(forResource: "TestCategoryData", withExtension: "js") {
+        if let url = Bundle.main.url(forResource: "TestCategoryData", withExtension: "json") {
+            CategoryViewModel.subUrl = url
             do {
                 let data = try Data(contentsOf: url)
                 let jsonData = try JSONDecoder().decode(CategoryData.self, from: data)
@@ -30,34 +33,31 @@ class CategoryViewModel {
             }
         }
     }
-     func saveDomaines() {
-        if let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
-            let fileURL = documentsDirectory.appendingPathComponent("TestCategoryData.js")
-            let json = ["category": ["categoryid":"100","categorycode":"100","categoryname":"dsdfsdfsd","categoryalise":"dsafdsfds","imageurl":"","sublist":""]]
-            writeFile(fileURL: fileURL, json: json)
-        } else {
-            print("Shouldn't reach here")
+    func writeToFile(completion: @escaping () -> Void) {
+        let cat = CategoryDatas(category: [Categorys(categoryid: 10, categorycode: "10", categoryname: "Faheem", categoryalise: "Fa", imageurl: "", sublist: [])])
+        do{
+            let encoder = JSONEncoder()
+                encoder.outputFormatting = .prettyPrinted
+            let JsonData = try encoder.encode(cat)
+            try JsonData.write(to: CategoryViewModel.subUrl!)
+            completion()
+        }catch{
+            print("error:\(error)")
+            self.errorOccured?(error as! SystemError)
+            completion()
         }
     }
-    
-     func writeFile(fileURL: URL, json: [String: Any]) {
-        do {
-            if let jsonData = try JSONSerialization.data(withJSONObject: json, options: .init(rawValue: 0)) as? Data {
-                try jsonData.write(to: fileURL)
-            }
-        } catch {
-            print(error.localizedDescription)
-        }
-    }
-
-
 }
 
-//struct Categorys : Encodable {
-//    let categoryid : Int?
-//    let categorycode : String?
-//    let categoryname : String?
-//    let categoryalise : String?
-//    let imageurl : String?
-//    let sublist : [Category]?
-//}
+struct CategoryDatas : Codable {
+    let category : [Categorys]?
+}
+
+struct Categorys : Codable {
+    let categoryid : Int?
+    let categorycode : String?
+    let categoryname : String?
+    let categoryalise : String?
+    let imageurl : String?
+    let sublist : [Categorys]?
+}

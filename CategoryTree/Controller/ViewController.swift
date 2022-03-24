@@ -116,7 +116,9 @@ extension ViewController {
     }
     //MARK: - Button Action
     @IBAction func addCategoryButtonClicked(_ sender: Any) {
-        viewModel.saveDomaines()
+        viewModel.writeToFile{
+            self.refreshData()
+        }
     }
     
 }
